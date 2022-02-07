@@ -1,0 +1,107 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+#scoreCheckBox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-top: 5px;
+  border: none;
+  padding: 10px;
+}
+
+#table {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2%;
+  background-color: #d4cac0;
+}
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#score {
+  font-size: large;
+  display: none;
+  background: #d4cac0;
+  text-align: center;
+  width: 50%;
+  margin: -45px auto 30px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.BoxEmpty {
+  margin: 50px;
+  height: 15vh;
+  width: 15vh;
+  background-color: #eeeeee;
+  border: solid 5px #d4cac0;
+  border-radius: 10px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3em;
+  transition: margin 200ms;
+}
+
+.Box2 {
+  background: #eee4da;
+}
+.Box4 {
+  background: #f1dbb4;
+}
+.Box8 {
+  color: #f9f6f2;
+  background: #f2b179;
+}
+.Box16 {
+  color: #f9f6f2;
+  background: #f59563;
+}
+.Box32 {
+  color: #f9f6f2;
+  background: #f67c5f;
+}
+.Box64 {
+  color: #f9f6f2;
+  background: #f65e3b;
+}
+.Box128 {
+  color: #f9f6f2;
+  background: #edcf72;
+  font-size: 45px;
+}
+.Box256 {
+  color: #f9f6f2;
+  background: #edcc61;
+  font-size: 45px;
+}
+.Box512 {
+  color: #f9f6f2;
+  background: #edc850;
+  font-size: 45px;
+}
+.Box1024 {
+  color: #f9f6f2;
+  background: #edc53f;
+  font-size: 35px;
+}
+.Box2048 {
+  color: #f9f6f2;
+  background: #edc22e;
+  font-size: 35px;
+}
+.Box4096,
+.Box8192 {
+  color: #f9f6f2;
+  background: #544836;
+  font-size: 35px;
+}
